@@ -1,0 +1,467 @@
+body {
+  font-family: 'Rubik', sans-serif;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
+
+div, p, input, button, form, h1 {
+  box-sizing: border-box;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix:after {
+  content: '';
+  display: table;
+  width: 100%;
+  clear: both;
+}
+
+.container {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+  margin-top: 30px;
+}
+
+nav {
+  float: right;
+  margin-top: 42px;
+}
+
+.main_nav {
+  padding: 0;
+  margin: 0;
+  display: block;
+}
+
+.main_nav li {
+  float: left;
+  display: block;
+  margin-right: 22px;
+}
+
+.main_nav li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000;
+}
+
+.main_nav li a:hover {
+  color: gray;
+}
+
+
+.first_screen {
+  margin: 0;
+  padding: 0;
+  background: url(../img/bg1.jpg) no-repeat center top / cover;
+  height: 560px;
+}
+
+.first_screen h1 {
+  font-weight: lighter;
+  color: #fff;
+  font-size: 44px;
+  padding-top: 60px;
+}
+
+.first_screen ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.first_screen ul {
+  margin-top: 300px;
+}
+
+.first_screen li {
+  float: left;
+  list-style-type: none;
+  margin-right: 7px;
+}
+
+.second_screen {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  height: 420px;
+}
+
+.main_p {
+  margin-top: 80px;
+  font-size: 44px;
+}
+
+.second_p {
+  width: 500px;
+  margin: 0 auto;
+  font-size: 24px;
+  padding-bottom: 40px;
+}
+
+.second_screen a {
+  color: #000;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.coffe_b {
+  margin: 0;
+  padding: 0;
+  height: 560px;
+}
+
+.coffe_bag li {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #f4e6d4;
+  float: left;
+  margin-right: 40px;
+}
+
+.coffe_bag li:hover {
+  background-color: #f4e6d4;
+}
+
+.bag {
+  margin-top: 90px;
+  float: left;
+  list-style-type: none;
+  margin-bottom: 120px;
+}
+
+.bag p {
+  text-align: left;
+  padding: 0px 5px;
+  font-weight: bold;
+}
+
+#shop {
+  font-size: 12px;
+}
+
+.inst {
+  margin: 0;
+  padding: 0;
+  height: 560px;
+  border-bottom: 1px solid black;
+}
+
+.inst p {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.inst ul {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.inst li {
+  list-style-type: none;
+  float: left;
+  margin-right: 30px;
+  padding-top: 15px;
+}
+
+.footer_one {
+  margin: 0;
+  padding: 0;
+  margin-top: 40px;
+  height: 160px;
+}
+
+.footer_one a {
+  text-decoration: none;
+  color: #000;
+}
+
+.footer_one p {
+  font-weight: bold;
+}
+
+.adre {
+  float: left;
+  margin-right: 130px;
+}
+
+.abou {
+  float: left;
+}
+
+.soci {
+  float: right;
+}
+
+.soci ul {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.soci li {
+  list-style-type: none;
+  float: left;
+  margin-left: 30px;
+}
+
+.footer_two {
+  margin: 0;
+  padding: 0;
+  height: 250px;
+}
+
+.yvc {
+  float: left;
+}
+
+.tele {
+  float: right;
+}
+
+.new {
+  margin: 0;
+  padding: 0;
+  background: url(../img/coffe_seeds.jpg) no-repeat center / cover;
+  height: 340px;
+}
+
+.new h2 {
+  font-size: 44px;
+  color: #fff;
+  padding-top: 60px;
+}
+
+.workers {
+  margin: 0;
+  padding: 0;
+  height: 800px;
+}
+
+.workers p {
+  font-size: 23px;
+  text-align: left;
+  width: 712px;
+  margin-left: 120px;
+
+}
+
+.workers img {
+  margin: 0 auto;
+  margin-left: 70px;
+}
+
+.item_breat {
+  margin: 0;
+  padding: 0;
+  height: 700px;
+  margin-top: 70px;
+}
+
+.main_item {
+  margin: 0;
+  padding: 0;
+  border: 2px solid #f4e6d4;
+}
+
+.main_item img {
+  margin: 0;
+  padding: 0;
+}
+
+.main_item table {
+  margin: 0;
+  padding: 0;
+}
+
+.main_item td {
+  margin: 0;
+  padding: 0;
+  padding-right: 90px;
+}
+
+#main_text {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.main_item a {
+  font-size: 12px;
+  color: #000;
+}
+
+.main_item2 {
+  margin: 0;
+  padding: 0;
+  height: 1200px;
+}
+
+.news {
+  text-align: center;
+}
+
+#news_p {
+  font-size: 12px;
+}
+
+#main_text2 {
+  font-size: 35px;
+}
+
+.news_text {
+  padding-top: 70px;
+  width: 580px;
+  margin-left: 230px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.news_text span {
+  font-weight: bold;
+}
+
+.maps {
+  margin: 0;
+  padding: 0;
+  height: 650px;
+}
+
+.myMap {
+  height: 400px;
+}
+
+.adress {
+  margin: 0;
+  padding: 0;
+  height: 250px;
+}
+
+.first {
+  float: left;
+  margin-right: 150px;
+}
+
+.metro {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.first a {
+  color: #000;
+}
+.metro2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.second a {
+  color: #000;
+}
+
+.shop {
+  padding-top: 100px;
+}
+
+.int_shop {
+  margin: 0;
+  padding: 0;
+  height: 420px;
+}
+
+#i_s {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.int {
+  margin: 0;
+  padding: 0;
+  float: left;
+  margin-left: 200px;
+}
+.int2 {
+  float: left;
+  margin-left: 175px;
+}
+
+.footer {
+  margin: 0;
+  padding: 0;
+  height: 450px;
+}
+
+#bird {
+  float: right;
+  position: relative;
+  right: 92px;
+  bottom: 138px;
+  z-index: 1;
+}
+
+.footer1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.footer1 h2 {
+  font-size: 12;
+  font-weight: bold;
+}
+
+#main_input {
+  position: relative;
+  left: 76px;
+  width: 680px;
+  height: 200px;
+  border: solid #f4e6d4;
+  margin-left: 40px;
+  margin-bottom: 25px;
+}
+
+#name {
+  width: 320px;
+  height: 60px;
+  border: solid #f4e6d4;
+  margin-left: 40px;
+  margin-bottom: 25px;
+}
+
+
+#capc {
+  margin: 0;
+  padding: 0;
+  width: 230px;
+  height: 60px;
+  border: solid #f4e6d4;
+  float: left;
+  margin-left: 200px;
+}
+
+#simbol {
+  width: 220px;
+  height: 60px;
+  border: solid #f4e6d4;
+  float: left;
+  margin-left: 45px;
+}
+
+#subm {
+  padding: 20px 30px 20px 30px;
+  background-color: #f4e6d4;
+  color: #000;
+  text-decoration: none;
+  float: left;
+  margin-left: 45px;
+}
